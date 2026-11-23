@@ -15,7 +15,7 @@ int main(void)
 
     *q = 5;/* TODO: p, q, r の間接参照 (*) だけを使って、b に 5 を代入し、a+b を c に代入 */
 
-    *r = *p + *q
+    *r = *p + *q;
 
     printf("%d,%d,%d", a, b, c);
     return 0;
